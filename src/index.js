@@ -6,7 +6,6 @@ import 'codemirror/mode/css/css';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/theme/monokai.css';
 import { transformJsToCss } from './parser/parser';
-import './prism-monokai.css';
 import './style.css';
 import throttle from './throttle';
 import acceptedFormats from './accepted-formats.txt';
