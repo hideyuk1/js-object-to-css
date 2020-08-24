@@ -1,0 +1,18 @@
+// Accepted formats samples:
+({
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    paddingBottom: 100
+});
+
+let class2 = {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0
+};
+
