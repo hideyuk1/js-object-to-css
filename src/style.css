@@ -1,0 +1,97 @@
+html {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 16px;
+    opacity: 0.5;
+    transition: opacity 250ms;
+}
+
+#github-link:hover {
+    opacity: 1;
+}
+
+.editor {
+    display: none;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.CodeMirror {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+.instructions {
+    font-family: monospace;
+}
+
+.editors-container {
+    display: flex;
+    height: 100%;
+}
+
+.cm-s-input:after {
+    content: " ";
+    background-color: #979797;
+    position: absolute;
+    right: -4px;
+    top:0;
+    width: 8px;
+    height: 100%;
+    cursor: w-resize;
+    z-index: 2;
+}
+
+.editor-title {
+    white-space: nowrap;
+}
+
+.editor-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+footer > p {
+    text-align: center;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 850px) {
+    .editors-container {
+      flex-direction: column;
+    }
+    .editor-wrapper {
+        width: 100% !important;
+    }
+    .cm-s-input:after {
+        content: none;
+    }
+}
