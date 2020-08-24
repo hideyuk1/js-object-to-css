@@ -1,10 +1,8 @@
 <h1 align="center">Welcome to js-object-to-css</h1>
 
-> Samples
+### 🏠 [Homepage](https://hideyuk1.github.io/js-object-to-css/)
 
-### 🏠 [Homepage](https://github.com/hideyuk1/js-object-to-css)
-
-### ✨ [Demo](https://hideyuk1.github.io/js-object-to-css/)
+Convert a JS style object to its CSS equivalent.
 
 ## Prerequisites
 
