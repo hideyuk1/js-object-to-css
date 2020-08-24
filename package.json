@@ -1,0 +1,54 @@
+{
+  "name": "js-object-to-css",
+  "version": "1.0.0",
+  "description": "Convert a JS style object to its CSS equivalent.",
+  "engines": {
+    "node": ">=12.16.0"
+  },
+  "scripts": {
+    "serve": "serve",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "watch": "webpack --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hideyuk1/js-object-to-css.git"
+  },
+  "keywords": [],
+  "author": "Lucas China",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hideyuk1/js-object-to-css/issues"
+  },
+  "homepage": "https://github.com/hideyuk1/js-object-to-css",
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.4.2",
+    "cssom": "^0.4.4",
+    "extract-loader": "^4.0.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "raw-loader": "^4.0.1",
+    "serve": "^11.2.0",
+    "style-loader": "^1.1.3",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "acorn": "^8.0.1",
+    "codemirror": "^5.56.0"
+  }
+}
