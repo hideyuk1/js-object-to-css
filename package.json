@@ -8,6 +8,7 @@
   "scripts": {
     "serve": "serve",
     "build": "webpack --config webpack.prod.js",
+    "build:gh-pages": "webpack --config webpack.docs.js",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "watch": "webpack --watch",
     "test": "jest"
