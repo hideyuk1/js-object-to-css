@@ -68,7 +68,7 @@ module.exports = {
         }),
 
         new CopyPlugin({
-            patterns: [{ from: './public/assets', to: path.join(outputPath, publicPath) }],
+            patterns: [{ from: './public/assets', to: path.join(outputPath, assetsPath) }],
         }),
 
         new MiniCssExtractPlugin({
