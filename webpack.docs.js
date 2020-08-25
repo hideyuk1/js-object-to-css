@@ -26,7 +26,7 @@ module.exports = merge(prod, {
             },
         }),
         new CopyPlugin({
-            patterns: [{ from: './public/assets', to: path.join(outputPath, 'assets') }],
+            patterns: [{ from: './public/assets', to: path.join(outputPath, '/assets/') }],
         }),
     ],
 });
