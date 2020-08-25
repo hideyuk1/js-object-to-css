@@ -4,8 +4,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const publicPath = '/assets';
+const publicPath = '/';
 const outputPath = path.join(__dirname, 'dist');
+const assetsPath = path.join(publicPath, 'assets');
 
 module.exports = {
     entry: './src/index.js',
@@ -60,6 +61,9 @@ module.exports = {
             minify: {
                 removeComments: true,
                 collapseWhitespace: false,
+            },
+            templateParameters: {
+                assetsPath,
             },
         }),
 
