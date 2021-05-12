@@ -50,6 +50,6 @@
   },
   "dependencies": {
     "acorn": "^8.0.1",
-    "codemirror": "^5.56.0"
+    "codemirror": "^5.58.2"
   }
 }
